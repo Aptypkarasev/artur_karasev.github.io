@@ -1,0 +1,161 @@
+body{
+    background-image: url(img/stocs.jpg);
+    background-size: 100%;
+    padding:10px 10% 0 10%;
+    font-size: 30px;
+    background-attachment:fixed;
+    color: aliceblue;
+    
+    
+}
+
+}
+a{
+    text-decoration: none;
+    color: crimson;
+}
+nav{
+    position: fixed;
+    width: 1507px;
+    color:crimson;
+    background-color: #0E3966;
+    top:0px;
+}
+h1{
+    width:45%;
+}
+ul.ddropdownn li {/* Считаем координаты относительно исходного места. */ position: relative; }
+ul.ddropdownn, ul.ddropdownn-inside {
+    /* Отступы на нуле. */
+    padding: 0;
+    /* Маркеры уберем. */
+    list-style-type: none;
+    }
+ul.ddropdownn-inside {
+    /* Спрячем дочерние элементы выпадающего списка. */
+    left: -9999px;
+    position: absolute;
+    }
+ul.ddropdownn li.ddropdownn-top {
+    /* Небольшой отступ. */
+    margin: 0 1px 0 0;
+    /* Выравнивание по левой стороне. */
+    float: left;
+    display: inline;
+    }
+ul.ddropdownn li.ddropdownn-top a {
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Снова отступы. */
+    padding: 3px 10px 4px;
+    }
+ul.ddropdownn a.ddropdownn-top {/* Цвет фона. */ background: none; }
+ul.ddropdownn a.ddropdownn-top:hover {/* Отступы. */ padding: 3px 10px 4px; }
+ul.ddropdownn li.ddropdownn-top:hover .ddropdownn-inside {
+    left: 0;
+    /* Делаю элементы блочными. */
+    display: block;
+    }
+ul.ddropdownn .ddropdownn-inside {/* Цвет фона. */ background: yellow; width: auto; }
+ul.ddropdownn .ddropdownn-inside a:hover {/* Цвет фона изменится при наведении. */ background: #efefef; }
+#ricardo_h_nav{
+    height: 50px;
+    width: 50px;
+    
+}
+#main{
+    background-color: grey;
+    /* background-image: url(img/Fon.jpg); */
+    margin-bottom: 0;
+    
+}
+header{
+    margin-top: 70px;
+    padding-left: 30px;
+}
+.popular_stonks{
+    margin-top: 200px;
+    background-color: #2c3136;
+}
+.Turbo_Flexxx{
+    float:right;
+    width:50%;
+}
+.popular_stonks div{
+    padding-left: 50px;
+    float:left;
+    width: 45%;
+    background-color: #2c3136;
+    border-radius: 100px;
+}
+
+
+
+.kabachok{
+    position: absolute;
+    top:250px;
+    left:1125px;
+    width:560px;  
+    background-color: #2c3136;
+    
+}
+
+.kabachok-n{
+    display: none;  
+}
+#stonk_table {
+    margin-right: 390px;
+    float: none;
+    width: 100%;
+}
+#stonk_table table{
+    
+    border-radius: 50px;
+    border-collapse: collapse;
+    margin-left: 0px;
+    font-size: 65px;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+}
+#stonk_table th{
+
+    
+}
+#stonk_table td{
+padding-left: 15px; 
+    
+}
+#interview section{
+    width: 100%;
+}
+h3{
+    margin: 0;
+    font-size: 65px;
+    text-align: center;
+    
+}
+#memes{
+    display:  flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.person{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    
+    align-content: center;
+}
+.name{
+    font-size: 65px;
+}
+footer{
+    margin-top: -30px;
+    background-color: #333333;
+    color: gray;
+    padding: 10px 20px 10px 20px;
+    
+}
